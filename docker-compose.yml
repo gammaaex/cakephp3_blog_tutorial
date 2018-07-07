@@ -6,7 +6,7 @@ services:
     ports:
       - $MYSQL_LISTEN_PORT:3306
     volumes:
-      - ./mysql/db:/var/lib/mysql
+      - ./mysql/db:/var/lib/$DATA_DIR
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
