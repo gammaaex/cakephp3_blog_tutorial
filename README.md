@@ -34,3 +34,6 @@
     1. http://localhost:8765/blog
         1. Email:`login1@mail.com`
         1. Password:`secret1`
+1. 終了方法
+    1. `exit`でコンテナから脱出
+    1. リポジトリのルート（docker-compose.ymlがある場所）で`docker-compose down`を叩いてコンテナを停止
